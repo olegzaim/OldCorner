@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: e8fcae;" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller.WorldController">
+    <children>
+        <AnchorPane layoutX="-4.0" layoutY="87.0" prefHeight="315.0" prefWidth="706.0" style="-fx-background-color: #676703;">
+            <children>
+                <Label layoutX="230.0" layoutY="25.0" prefHeight="55.0" prefWidth="245.0" text="Hello World" textFill="#e8fcae">
+                    <font>
+                        <Font name="Augusta Two Regular" size="54.0" />
+                    </font>
+                </Label>
+            <ImageView fx:id="imageButtonWorld" fitHeight="178.0" fitWidth="184.0" layoutX="243.0" layoutY="103.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/world.png" />
+               </image>
+            </ImageView>
+            </children>
+        </AnchorPane>
+        <Label layoutX="240.0" prefHeight="55.0" prefWidth="257.0" text="OldCorner" textFill="#494901">
+            <font>
+                <Font name="American TextC Regular" size="61.0" />
+            </font>
+        </Label>
+      <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+    </children>
+</AnchorPane>

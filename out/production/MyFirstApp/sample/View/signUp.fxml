@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: e8fcae;" stylesheets="@../Stilyes.css" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller.SignUpController">
+    <children>
+        <AnchorPane layoutX="-4.0" layoutY="87.0" prefHeight="315.0" prefWidth="706.0" style="-fx-background-color: #676703;">
+            <children>
+                <PasswordField fx:id="password_filed" layoutX="374.0" layoutY="192.0" prefHeight="42.0" prefWidth="308.0" promptText="Password" style="-fx-background-color: e8fcae; -fx-border-color: #494901; -fx-border-radius: 2;">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </PasswordField>
+                <Button fx:id="signUpButton" layoutX="272.0" layoutY="246.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="168.0" style="-fx-background-color: #828203;" text="Registration" textFill="#eadcdc">
+                    <font>
+                        <Font name="Augusta Two Regular" size="24.0" />
+                    </font>
+                </Button>
+            <TextField fx:id="signUpName" layoutX="28.0" layoutY="14.0" prefHeight="42.0" prefWidth="308.0" promptText="Name" style="-fx-background-color: e8fcae; -fx-border-color: #494901; -fx-background-radius: 2;">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="signUpSurname" layoutX="374.0" layoutY="14.0" prefHeight="42.0" prefWidth="308.0" promptText="Surname" style="-fx-background-color: e8fcae; -fx-border-color: #494901; -fx-background-radius: 2;">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="signUpAge" layoutX="28.0" layoutY="81.0" prefHeight="42.0" prefWidth="308.0" promptText="Age" style="-fx-background-color: e8fcae; -fx-border-color: #494901; -fx-background-radius: 2;">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="signUpLocation" layoutX="374.0" layoutY="81.0" prefHeight="42.0" prefWidth="308.0" promptText="Location" style="-fx-background-color: e8fcae; -fx-border-color: #494901; -fx-background-radius: 2;">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="loggin_field" layoutX="28.0" layoutY="192.0" prefHeight="42.0" prefWidth="308.0" promptText="Login" style="-fx-background-color: e8fcae; -fx-border-color: #494901; -fx-background-radius: 2;">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <RadioButton fx:id="signUpRadioButtonMan" layoutX="225.0" layoutY="138.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="110.0" selected="true" text="Man" textFill="WHITE">
+               <font>
+                  <Font size="28.0" />
+               </font>
+            </RadioButton>
+            <RadioButton fx:id="signUpRadioButtonWoman" layoutX="376.0" layoutY="138.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="185.0" text="Woman" textFill="WHITE">
+               <font>
+                  <Font size="28.0" />
+               </font>
+            </RadioButton>
+            <Button fx:id="signUpButtonBack" layoutX="29.0" layoutY="265.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="65.0" style="-fx-background-color: #828203; -fx-border-color: brown;" text="Back" textFill="#eadcdc">
+               <font>
+                  <Font name="Bookman Old Style" size="15.0" />
+               </font>
+            </Button>
+            </children>
+        </AnchorPane>
+        <Label layoutX="240.0" prefHeight="55.0" prefWidth="257.0" text="OldCorner" textFill="#494901">
+            <font>
+                <Font name="American TextC Regular" size="61.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>
